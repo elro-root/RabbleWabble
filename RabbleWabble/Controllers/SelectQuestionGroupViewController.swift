@@ -29,12 +29,6 @@ class SelectQuestionGroupViewController: UIViewController {
     // MARK: - View Lifecycle
     public override func viewDidLoad() {
         super.viewDidLoad()
-        questionGroups.forEach {
-            print("\($0.title): " +
-                    "correctCount \($0.score.correctCount), " +
-                    "incorrectCount \($0.score.incorrectCount)"
-            )
-        }
     }
 }
 
@@ -47,10 +41,17 @@ extension SelectQuestionGroupViewController: UITableViewDataSource {
         return questionGroups.count
     }
 
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView,
+                          cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionGroupCell") as! QuestionGroupCell
         let questionGroup = questionGroups[indexPath.row]
         cell.titleLabel.text = questionGroup.title
+        cell.percentageSubsriber =
+            questionGroup.score.$runningPercentage
+            .receive(on: DispatchQueue.main)
+            .map {
+                return String(format: "%.0f %%", round(100 * $0))
+            }.assign(to: \.text, on: cell.percentageLabel)
         return cell
     }
 }
