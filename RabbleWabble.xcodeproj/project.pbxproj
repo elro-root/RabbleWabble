@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301E13CA26B85F9800D1D9AD /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E13C926B85F9800D1D9AD /* SelectQuestionGroupViewController.swift */; };
+		3075448426BCB52400FD616D /* DiskCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075448326BCB52400FD616D /* DiskCaretaker.swift */; };
+		3075448626BCC34400FD616D /* QuestionGroupCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075448526BCC34400FD616D /* QuestionGroupCaretaker.swift */; };
+		3075448826BCC68100FD616D /* QuestionGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3075448726BCC68100FD616D /* QuestionGroupData.json */; };
+		3075448A26BCC92600FD616D /* BaseQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075448926BCC92600FD616D /* BaseQuestionStrategy.swift */; };
+		30873B4826B982DE008294FD /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30873B4726B982DE008294FD /* QuestionGroupCell.swift */; };
+		3088627526BAD89B0057F908 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088627426BAD89B0057F908 /* AppSettings.swift */; };
+		3088627726BB4DEC0057F908 /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3088627626BB4DEC0057F908 /* AppSettingsViewController.swift */; };
 		30B2FE1526B5F00E00A2B8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE1426B5F00E00A2B8C2 /* AppDelegate.swift */; };
 		30B2FE1726B5F00E00A2B8C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE1626B5F00E00A2B8C2 /* SceneDelegate.swift */; };
-		30B2FE1926B5F00E00A2B8C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE1826B5F00E00A2B8C2 /* ViewController.swift */; };
+		30B2FE1926B5F00E00A2B8C2 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE1826B5F00E00A2B8C2 /* QuestionViewController.swift */; };
 		30B2FE1C26B5F00E00A2B8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B2FE1A26B5F00E00A2B8C2 /* Main.storyboard */; };
-		30B2FE1E26B5F01400A2B8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B2FE1D26B5F01400A2B8C2 /* Assets.xcassets */; };
-		30B2FE2126B5F01400A2B8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B2FE1F26B5F01400A2B8C2 /* LaunchScreen.storyboard */; };
+		30B2FE2E26B5F23C00A2B8C2 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE2D26B5F23C00A2B8C2 /* Questions.swift */; };
+		30B2FE3026B5F27000A2B8C2 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE2F26B5F27000A2B8C2 /* QuestionGroup.swift */; };
+		30B2FE3226B5F2D800A2B8C2 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE3126B5F2D800A2B8C2 /* QuestionGroupData.swift */; };
+		30B2FE3426B5F3A400A2B8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B2FE3326B5F3A400A2B8C2 /* Assets.xcassets */; };
+		30B2FE3626B5F3B200A2B8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B2FE3526B5F3B200A2B8C2 /* LaunchScreen.storyboard */; };
+		30B2FE3826B5F46200A2B8C2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2FE3726B5F46200A2B8C2 /* QuestionView.swift */; };
+		30CE677A26B9DF3700A550CB /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CE677926B9DF3700A550CB /* QuestionStrategy.swift */; };
+		30CE677C26B9E08700A550CB /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CE677B26B9E08700A550CB /* SequentialQuestionStrategy.swift */; };
+		30CE677E26B9E33500A550CB /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CE677D26B9E33500A550CB /* RandomQuestionStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301E13C926B85F9800D1D9AD /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		3075448326BCB52400FD616D /* DiskCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCaretaker.swift; sourceTree = "<group>"; };
+		3075448526BCC34400FD616D /* QuestionGroupCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCaretaker.swift; sourceTree = "<group>"; };
+		3075448726BCC68100FD616D /* QuestionGroupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionGroupData.json; sourceTree = "<group>"; };
+		3075448926BCC92600FD616D /* BaseQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuestionStrategy.swift; sourceTree = "<group>"; };
+		30873B4726B982DE008294FD /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
+		3088627426BAD89B0057F908 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		3088627626BB4DEC0057F908 /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		30B2FE1126B5F00E00A2B8C2 /* RabbleWabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleWabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B2FE1426B5F00E00A2B8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B2FE1626B5F00E00A2B8C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30B2FE1826B5F00E00A2B8C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B2FE1826B5F00E00A2B8C2 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		30B2FE1B26B5F00E00A2B8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30B2FE1D26B5F01400A2B8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30B2FE2026B5F01400A2B8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B2FE2226B5F01400A2B8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B2FE2D26B5F23C00A2B8C2 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		30B2FE2F26B5F27000A2B8C2 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
+		30B2FE3126B5F2D800A2B8C2 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
+		30B2FE3326B5F3A400A2B8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B2FE3526B5F3B200A2B8C2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B2FE3726B5F46200A2B8C2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		30CE677926B9DF3700A550CB /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
+		30CE677B26B9E08700A550CB /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
+		30CE677D26B9E33500A550CB /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +67,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3075448226BCB4F900FD616D /* Caretakers */ = {
+			isa = PBXGroup;
+			children = (
+				3075448326BCB52400FD616D /* DiskCaretaker.swift */,
+				3075448526BCC34400FD616D /* QuestionGroupCaretaker.swift */,
+			);
+			path = Caretakers;
+			sourceTree = "<group>";
+		};
 		30B2FE0826B5F00E00A2B8C2 = {
 			isa = PBXGroup;
 			children = (
-				30B2FE1326B5F00E00A2B8C2 /* RabbleWabble */,
 				30B2FE1226B5F00E00A2B8C2 /* Products */,
+				30B2FE1326B5F00E00A2B8C2 /* RabbleWabble */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,77 @@
 		30B2FE1326B5F00E00A2B8C2 /* RabbleWabble */ = {
 			isa = PBXGroup;
 			children = (
-				30B2FE1426B5F00E00A2B8C2 /* AppDelegate.swift */,
-				30B2FE1626B5F00E00A2B8C2 /* SceneDelegate.swift */,
-				30B2FE1826B5F00E00A2B8C2 /* ViewController.swift */,
-				30B2FE1A26B5F00E00A2B8C2 /* Main.storyboard */,
-				30B2FE1D26B5F01400A2B8C2 /* Assets.xcassets */,
-				30B2FE1F26B5F01400A2B8C2 /* LaunchScreen.storyboard */,
-				30B2FE2226B5F01400A2B8C2 /* Info.plist */,
+				30B2FE2826B5F11600A2B8C2 /* AppDelegate */,
+				3075448226BCB4F900FD616D /* Caretakers */,
+				30B2FE2926B5F16C00A2B8C2 /* Controllers */,
+				30B2FE2A26B5F17300A2B8C2 /* Models */,
+				30B2FE2C26B5F18000A2B8C2 /* Resources */,
+				30CE677826B9DF0A00A550CB /* Strategies */,
+				30B2FE2B26B5F17700A2B8C2 /* Views */,
 			);
 			path = RabbleWabble;
+			sourceTree = "<group>";
+		};
+		30B2FE2826B5F11600A2B8C2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				30B2FE1426B5F00E00A2B8C2 /* AppDelegate.swift */,
+				30B2FE1626B5F00E00A2B8C2 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		30B2FE2926B5F16C00A2B8C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30B2FE1826B5F00E00A2B8C2 /* QuestionViewController.swift */,
+				301E13C926B85F9800D1D9AD /* SelectQuestionGroupViewController.swift */,
+				3088627626BB4DEC0057F908 /* AppSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30B2FE2A26B5F17300A2B8C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30B2FE2D26B5F23C00A2B8C2 /* Questions.swift */,
+				30B2FE2F26B5F27000A2B8C2 /* QuestionGroup.swift */,
+				30B2FE3126B5F2D800A2B8C2 /* QuestionGroupData.swift */,
+				3088627426BAD89B0057F908 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30B2FE2B26B5F17700A2B8C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30B2FE1A26B5F00E00A2B8C2 /* Main.storyboard */,
+				30B2FE3526B5F3B200A2B8C2 /* LaunchScreen.storyboard */,
+				30B2FE3726B5F46200A2B8C2 /* QuestionView.swift */,
+				30873B4726B982DE008294FD /* QuestionGroupCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30B2FE2C26B5F18000A2B8C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3075448726BCC68100FD616D /* QuestionGroupData.json */,
+				30B2FE3326B5F3A400A2B8C2 /* Assets.xcassets */,
+				30B2FE2226B5F01400A2B8C2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30CE677826B9DF0A00A550CB /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				30CE677926B9DF3700A550CB /* QuestionStrategy.swift */,
+				30CE677B26B9E08700A550CB /* SequentialQuestionStrategy.swift */,
+				30CE677D26B9E33500A550CB /* RandomQuestionStrategy.swift */,
+				3075448926BCC92600FD616D /* BaseQuestionStrategy.swift */,
+			);
+			path = Strategies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +178,7 @@
 				30B2FE0D26B5F00E00A2B8C2 /* Sources */,
 				30B2FE0E26B5F00E00A2B8C2 /* Frameworks */,
 				30B2FE0F26B5F00E00A2B8C2 /* Resources */,
+				30E58CAC26BCAED50046962C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,21 +226,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B2FE2126B5F01400A2B8C2 /* LaunchScreen.storyboard in Resources */,
-				30B2FE1E26B5F01400A2B8C2 /* Assets.xcassets in Resources */,
+				30B2FE3626B5F3B200A2B8C2 /* LaunchScreen.storyboard in Resources */,
+				3075448826BCC68100FD616D /* QuestionGroupData.json in Resources */,
+				30B2FE3426B5F3A400A2B8C2 /* Assets.xcassets in Resources */,
 				30B2FE1C26B5F00E00A2B8C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30E58CAC26BCAED50046962C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30B2FE0D26B5F00E00A2B8C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B2FE1926B5F00E00A2B8C2 /* ViewController.swift in Sources */,
+				3088627526BAD89B0057F908 /* AppSettings.swift in Sources */,
+				30B2FE1926B5F00E00A2B8C2 /* QuestionViewController.swift in Sources */,
+				30B2FE2E26B5F23C00A2B8C2 /* Questions.swift in Sources */,
 				30B2FE1526B5F00E00A2B8C2 /* AppDelegate.swift in Sources */,
+				30B2FE3826B5F46200A2B8C2 /* QuestionView.swift in Sources */,
+				30B2FE3226B5F2D800A2B8C2 /* QuestionGroupData.swift in Sources */,
+				30873B4826B982DE008294FD /* QuestionGroupCell.swift in Sources */,
+				30CE677C26B9E08700A550CB /* SequentialQuestionStrategy.swift in Sources */,
+				30CE677E26B9E33500A550CB /* RandomQuestionStrategy.swift in Sources */,
+				30CE677A26B9DF3700A550CB /* QuestionStrategy.swift in Sources */,
+				30B2FE3026B5F27000A2B8C2 /* QuestionGroup.swift in Sources */,
+				3088627726BB4DEC0057F908 /* AppSettingsViewController.swift in Sources */,
+				301E13CA26B85F9800D1D9AD /* SelectQuestionGroupViewController.swift in Sources */,
+				3075448426BCB52400FD616D /* DiskCaretaker.swift in Sources */,
+				3075448626BCC34400FD616D /* QuestionGroupCaretaker.swift in Sources */,
+				3075448A26BCC92600FD616D /* BaseQuestionStrategy.swift in Sources */,
 				30B2FE1726B5F00E00A2B8C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,14 +289,6 @@
 				30B2FE1B26B5F00E00A2B8C2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		30B2FE1F26B5F01400A2B8C2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30B2FE2026B5F01400A2B8C2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5C27RD34S;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "elro-root.RabbleWabble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +436,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5C27RD34S;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "elro-root.RabbleWabble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
